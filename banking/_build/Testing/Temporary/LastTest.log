@@ -1,0 +1,43 @@
+Start testing: May 24 20:46 MSK
+----------------------------------------------------------
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "/home/alexsun8/alexsun8/workspace/homework/lab05/banking/_build/tests"
+Directory: /home/alexsun8/alexsun8/workspace/homework/lab05/banking/_build
+"unit_tests" start time: May 24 20:46 MSK
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 2 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from ACCOUUNT
+[ RUN      ] ACCOUUNT.All
+unknown file: Failure
+C++ exception with description "at first lock the account" thrown in the test body.
+[  FAILED  ] ACCOUUNT.All (0 ms)
+[----------] 1 test from ACCOUUNT (0 ms total)
+
+[----------] 1 test from TRANSACTION
+[ RUN      ] TRANSACTION.All
+unknown file: Failure
+C++ exception with description "invalid action" thrown in the test body.
+[  FAILED  ] TRANSACTION.All (1 ms)
+[----------] 1 test from TRANSACTION (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test cases ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] ACCOUUNT.All
+[  FAILED  ] TRANSACTION.All
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"unit_tests" end time: May 24 20:46 MSK
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 24 20:46 MSK
